@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Mosque Icon -->
+    <group android:translateX="54" android:translateY="54">
+        <!-- Main building -->
+        <path
+            android:pathData="M-20,-15L20,-15L20,15L-20,15Z"
+            android:fillColor="@color/white"/>
+
+        <!-- Dome -->
+        <path
+            android:pathData="M-15,-15Q0,-25 15,-15"
+            android:fillColor="@color/white"/>
+
+        <!-- Minaret left -->
+        <path
+            android:pathData="M-22,-20L-18,-20L-18,5L-22,5Z"
+            android:fillColor="@color/white"/>
+
+        <!-- Minaret right -->
+        <path
+            android:pathData="M18,-20L22,-20L22,5L18,5Z"
+            android:fillColor="@color/white"/>
+
+        <!-- Door -->
+        <path
+            android:pathData="M-5,5L5,5L5,15L-5,15Z"
+            android:fillColor="@color/primary_color"/>
+
+        <!-- Crescent on dome -->
+        <path
+            android:pathData="M0,-25Q-3,-22 0,-19Q3,-22 0,-25"
+            android:fillColor="@color/accent_color"/>
+    </group>
+</vector>

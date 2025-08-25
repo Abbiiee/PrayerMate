@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <!-- Container للإيموجي والأيقونة -->
+        <FrameLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="16dp">
+
+            <!-- الإيموجي (يظهر عند استخدام الإيموجي) -->
+            <TextView
+                android:id="@+id/tvPrayerEmoji"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="🌅"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:visibility="visible" />
+
+            <!-- الأيقونة العادية (تظهر عند عدم وجود إيموجي) -->
+            <ImageView
+                android:id="@+id/ivPrayerIcon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:visibility="gone"
+                app:tint="@color/primary_color" />
+
+        </FrameLayout>
+
+        <!-- اسم الصلاة -->
+        <TextView
+            android:id="@+id/tvPrayerName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="الفجر"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text_color"
+            android:layout_marginEnd="12dp" />
+
+        <!-- وقت الصلاة -->
+        <TextView
+            android:id="@+id/tvPrayerTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04:34"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/accent_color"
+            android:background="@drawable/time_background"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:minWidth="70dp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

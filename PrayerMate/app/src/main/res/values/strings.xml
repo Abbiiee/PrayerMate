@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prayer Mate</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="qibla_direction">بوصلة القبلة</string>
+    <string name="prayer_times">أوقات الصلاة</string>
+    <string name="current_time">الوقت الحالي</string>
+    <string name="next_prayer">الصلاة القادمة</string>
+    <string name="location">الموقع</string>
+
+    <!-- Prayer Names -->
+    <string name="fajr">الفجر</string>
+    <string name="sunrise">الشروق</string>
+    <string name="dhuhr">الظهر</string>
+    <string name="asr">العصر</string>
+    <string name="maghrib">المغرب</string>
+    <string name="isha">العشاء</string>
+
+    <!-- Directions -->
+    <string name="north">شمال</string>
+    <string name="northeast">شمال شرق</string>
+    <string name="east">شرق</string>
+    <string name="southeast">جنوب شرق</string>
+    <string name="south">جنوب</string>
+    <string name="southwest">جنوب غرب</string>
+    <string name="west">غرب</string>
+    <string name="northwest">شمال غرب</string>
+
+    <!-- Navigation Strings -->
+    <string name="next">التالي</string>
+    <string name="previous">السابق</string>
+    <string name="lorem_ipsum">هذا النص التجريبي للتطبيق</string>
+
+    <!-- Messages -->
+    <string name="location_permission_required">يجب السماح بالوصول للموقع</string>
+    <string name="failed_to_get_location">فشل في الحصول على الموقع</string>
+    <string name="failed_to_load_prayer_times">فشل في تحميل أوقات الصلاة</string>
+    <string name="connection_error">خطأ في الاتصال</string>
+    <string name="qibla_instruction">امسك الهاتف بشكل مستوٍ واتبع السهم الأخضر للوصول لاتجاه القبلة</string>
+</resources>

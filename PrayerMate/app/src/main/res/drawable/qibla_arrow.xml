@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="280dp"
+    android:height="280dp"
+    android:viewportWidth="280"
+    android:viewportHeight="280">
+
+    <!-- Shadow for depth -->
+    <path
+        android:pathData="M142,42L162,142L142,242L122,142Z"
+        android:fillColor="#40000000"/>
+
+    <!-- Main Arrow Body - Red -->
+    <path
+        android:pathData="M140,40L160,140L140,240L120,140Z"
+        android:fillColor="#FFEE2B2B"
+        android:strokeColor="#FF2E7D32"
+        android:strokeWidth="3"/>
+
+    <!-- Arrow Head (Pointing North) - Bright Red -->
+    <path
+        android:pathData="M140,20L170,60L140,50L110,60Z"
+        android:fillColor="#FFFF0000"/>
+
+    <!-- Arrow Tail (South) - Dark Red -->
+    <path
+        android:pathData="M140,260L110,220L140,230L170,220Z"
+        android:fillColor="#FFAA0000"/>
+
+    <!-- Center circle - Green theme -->
+    <path
+        android:pathData="M140,140m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"
+        android:strokeColor="#FF2E7D32"
+        android:strokeWidth="4"
+        android:fillColor="#FF4CAF50"/>
+
+    <!-- Inner white circle -->
+    <path
+        android:pathData="M140,140m-22,0a22,22 0,1 1,44 0a22,44 0,1 1,-44 0"
+        android:fillColor="#FFFFFFFF"
+        android:strokeColor="#FF2E7D32"
+        android:strokeWidth="2"/>
+
+    <!-- Kaaba symbol - Main cube -->
+    <path
+        android:pathData="M128,132L152,132L152,148L128,148Z"
+        android:fillColor="#FF212121"/>
+
+    <!-- Kaaba door -->
+    <path
+        android:pathData="M144,132L148,132L148,144L144,144Z"
+        android:fillColor="#FFFFC107"/>
+
+    <!-- Kaaba pattern lines -->
+    <path
+        android:pathData="M132,134L136,134"
+        android:strokeColor="#FFFFC107"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M132,138L136,138"
+        android:strokeColor="#FFFFC107"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M132,142L136,142"
+        android:strokeColor="#FFFFC107"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M132,146L136,146"
+        android:strokeColor="#FFFFC107"
+        android:strokeWidth="1"/>
+
+    <!-- Kaaba top -->
+    <path
+        android:pathData="M128,132L140,128L152,132"
+        android:fillColor="#FF424242"/>
+
+    <!-- Direction indicator at top -->
+    <path
+        android:pathData="M135,100L145,100L140,92Z"
+        android:fillColor="#FF2E7D32"/>
+
+    <!-- Glow effect -->
+    <path
+        android:pathData="M140,40L160,140L140,240L120,140Z"
+        android:strokeColor="#44FF4444"
+        android:strokeWidth="8"/>
+
+</vector>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <!-- Direction Info Card -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="@color/card_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="اتجاه القبلة"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_color"
+                android:layout_marginBottom="16dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvDirection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="شمال"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent_color"
+                    android:layout_marginEnd="16dp" />
+
+                <TextView
+                    android:id="@+id/tvDegree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0°"
+                    android:textSize="18sp"
+                    android:textColor="@color/secondary_text_color" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Compass Container - تم تصغير الحجم لتجنب قطع الأطراف -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        app:cardCornerRadius="140dp"
+        app:cardElevation="12dp"
+        app:cardBackgroundColor="@color/card_background"
+        android:layout_marginBottom="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <!-- Compass Background -->
+            <ImageView
+                android:id="@+id/compassImage"
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:src="@drawable/compass_bg"
+                android:layout_centerInParent="true"
+                android:scaleType="centerInside" />
+
+            <!-- Qibla Arrow -->
+            <ImageView
+                android:id="@+id/qiblaArrow"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/qibla_arrow"
+                android:layout_centerInParent="true"
+                android:scaleType="centerInside" />
+
+            <!-- Center Dot -->
+            <View
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Instructions -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="@color/info_background"/>
+
+</LinearLayout>

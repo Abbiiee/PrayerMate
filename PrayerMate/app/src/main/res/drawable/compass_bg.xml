@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="320dp"
+    android:viewportWidth="320"
+    android:viewportHeight="320">
+
+    <!-- Outer shadow -->
+    <path
+        android:pathData="M160,160m-152,0a152,152 0,1 1,304 0a152,152 0,1 1,-304 0"
+        android:fillColor="#1A000000"/>
+
+    <!-- Main compass circle -->
+    <path
+        android:pathData="M160,160m-150,0a150,150 0,1 1,300 0a150,150 0,1 1,-300 0"
+        android:fillColor="#FFFFFFFF"
+        android:strokeColor="#FF059669"
+        android:strokeWidth="4"/>
+
+    <!-- Inner decorative ring -->
+    <path
+        android:pathData="M160,160m-130,0a130,130 0,1 1,260 0a130,130 0,1 1,-260 0"
+        android:strokeColor="#FF10B981"
+        android:strokeWidth="2"/>
+
+    <!-- North marker -->
+    <path
+        android:pathData="M160,20L170,40L150,40Z"
+        android:fillColor="#FF059669" />
+
+    <!-- North line -->
+    <path
+        android:pathData="M160,10L160,50"
+        android:strokeColor="#FF059669"
+        android:strokeWidth="4"/>
+
+    <!-- East marker -->
+    <path
+        android:pathData="M300,160L280,150L280,170Z"
+        android:fillColor="#FF10B981" />
+
+    <!-- East line -->
+    <path
+        android:pathData="M270,160L310,160"
+        android:strokeColor="#FF10B981"
+        android:strokeWidth="3"/>
+
+    <!-- South marker -->
+    <path
+        android:pathData="M160,300L150,280L170,280Z"
+        android:fillColor="#FF10B981" />
+
+    <!-- South line -->
+    <path
+        android:pathData="M160,270L160,310"
+        android:strokeColor="#FF10B981"
+        android:strokeWidth="3"/>
+
+    <!-- West marker -->
+    <path
+        android:pathData="M20,160L40,150L40,170Z"
+        android:fillColor="#FF10B981" />
+
+    <!-- West line -->
+    <path
+        android:pathData="M10,160L50,160"
+        android:strokeColor="#FF10B981"
+        android:strokeWidth="3"/>
+
+    <!-- Degree markings every 30 degrees -->
+    <path
+        android:pathData="M160,25L160,35"
+        android:strokeColor="#FFBBF7D0"
+        android:strokeWidth="1"/>
+
+    <!-- Center decoration -->
+    <path
+        android:pathData="M160,160m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0"
+        android:fillColor="#FF059669"/>
+
+    <path
+        android:pathData="M160,160m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#FFFFFFFF"/>
+
+    <path
+        android:pathData="M160,160m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"
+        android:fillColor="#FF059669"/>
+
+</vector>
